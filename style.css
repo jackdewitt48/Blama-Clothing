@@ -33,6 +33,12 @@ body {background-color: #0D3249 !important;}
 	text-align: center;
 	text-emphasis-position: below
 }
+.body{
+	
+color: black;
+	line-height: 2;
+	background-color: #F4C918
+}
 
 .header ul {
   margin: 0;
@@ -182,7 +188,7 @@ a{
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: list-item;
 }
 
 /* Next & previous buttons */
@@ -214,7 +220,7 @@ a{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #F4C918;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -241,19 +247,19 @@ a{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0 ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #F4C918;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-name: stay;
+  -webkit-animation-duration: 0s;
   animation-name: fade;
-  animation-duration: 6s;
+  animation-duration: 10s;
 }
 
 @-webkit-keyframes fade {
