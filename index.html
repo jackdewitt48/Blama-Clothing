@@ -1,108 +1,240 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Blama Clothing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
-<!DOCTYPE html>
-<html>
+
 <body>
 <header class="header">
 	
-  <a href="" class="logo">  <img src="Images_/blama_logo%20copy.jpg" style="width:70%"></a> 
-	
-	
-        <h1>Blama Clothing</h1>
+  <a href="" class="logo">  <img src="Images_/blama_logo%20copy.jpg" style="width:70%" alt="Blama Clothing logo"></a> 
+  <h1>Blama Clothing</h1>
  
 
-	
-	 
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li><a href="#index.html">Home</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#container1">Home</a></li>
+    <li><a href="#container2">About</a></li>
     <li><a href="shop.html">Shop</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#footer">Contact</a></li>
+	  
+	  
   </ul>
 </header>
 
-
-  
-<div class="container">
+<div class id="container1">
   <div class="row">
-    <div class="col-sm-2">
-      
-      
-    </div>
     <div class="col-sm-12">
-
       
-      <img class="my_img" src="logo.png"> 
-		<!-- Slideshow container -->
-<div class="slideshow-container">
- 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 5</div>
-    <img src="Images_/white:green%20hoodie.png" style="width:100%">
-    <div class="text">White and green Hoodie</div>
+  
+    </div>
   </div>
+</div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 5</div>
-    <img src="Images_/white%20oragane%20t%20.png" style="width:100%">
-    <div class="text">White and orange T-shirt</div>
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
-    <img src="Images_/Grey%20hoodie.jpg" style="width:100%">
-    <div class="text">Grey Hoodie</div>
-  </div>
+<div class="slideshow">
+  <div class="row">
+    <div class="col-sm-12">
+      
+      <div class="slideshow-container">
 
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 5</div>
-    <img src="Images_/black_blue%20hoodie.png" style="width:100%">
-    <div class="text">Black and Blue Hoodie</div>
-  </div>
+        <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="Images_/white:green%20hoodie.png" style="width:100%" alt="image of white and green hoodie">
+            <div class="text">White and green Hoodie</div>
+          </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 5</div>
-    <img src="Images_/black:orange%20hoodie.png" style="width:100%">
-    <div class="text">Black and orange Hoodie</div>
-  </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="Images_/white%20oragane%20t%20.png" style="width:100%" alt="image of white and orange hoodie">
+            <div class="text">White and orange T-shirt</div>
+          </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="Images_/Grey%20hoodie.jpg" style="width:100%" alt="image of grey hoodie">
+            <div class="text">Grey Hoodie</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="Images_/black_blue%20hoodie.png" style="width:100%" alt="image of Black and Blue hoodie">
+            <div class="text">Black and Blue Hoodie</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="Images_/black:orange%20hoodie.png" style="width:100%" alt="image of Black and Orange hoodie">
+            <div class="text">Black and orange Hoodie</div>
+          </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
 <br>
 
-<!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>  
 </div>
 
-<script> var slideIndex = 1;
+    </div>
+  </div>
+</div>
+
+<div class id="container2">
+  <div class="row">
+   <div class="col-sm-6">
+	<div style="text-align:center"> 
+	<header class="body">
+      <h1> Our story</h1>  
+    <p> 
+      Shopping online has never been more rewarding. Our selection of fashion goods includes stunning pieces for every occasion, size or budget. Our retail experts go far and beyond to create our breathtaking, creative collections, and our customer service team will make sure that your expectations are not just met, but exceeded.
+      <br><br>Thanks to our innovative and service-oriented approach, Founded in Warkworth New Zealand, Blama Clothing has been highly successful since day one. Browse our site and get in touch if you need any assistance. Happy shopping!
+    </p> 
+	<img src="Images_/blue%20and%20grey.JPG" style="width:25%" alt="image of hoodies">
+		</header>
+     
+	
+
+
+<footer class id="footer">
+  <div class="row">
+    <div class="col-sm-12">
+    
+    <p> 
+    <!-- My Contact page starts here -->
+		<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Let us know below if you want to purchase clothing or are in need of some asssistance:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Images_/Group.jpg" style="width:55%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Email Adress</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your email..">
+        <label for="country">Where your from (Country)</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="new Zealand">New Zealand</option>
+          <option value="usa">USA</option>
+		  <option value="other">Other</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+    </p> 
+ 
+    </div>
+  </div>
+</footer>
+
+<!-- My Slideshow Script starts here --> 
+<script>
+var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -111,45 +243,26 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
+  if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
 </script>
-
-      
-		  
-    </div>
-    <div class="col-sm-6 ">
-	<div style="text-align:center">
-	<header class="body">
-	
 		
 
-         
-		<h1> Our story</h1>  
-		<p> 
-			Shopping online has never been more rewarding. Our selection of fashion goods includes stunning pieces for every occasion, size or budget. Our retail experts go far and beyond to create our breathtaking, creative collections, and our customer service team will make sure that your expectations are not just met, but exceeded.
-
-
-
-Thanks to our innovative and service-oriented approach, Founded in Warkworth New Zealand, Blama Clothing has been highly successful since day one. Browse our site and get in touch if you need any assistance. Happy shopping!
-		</p> 
 		
-   
-  
+		
+		
 
- <div class="col-sm-12 ">
-	<img src="Images_/blue%20and%20grey.JPG" style="width:50%" float-right>
-</body>
-</html>
+
+
 
 
 
