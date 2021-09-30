@@ -149,6 +149,10 @@ color: black;
 a{
   background:#F4C918 !important;
 }
+
+.menu a:hover{
+		background:#0D3249  !important
+	}
 .header .menu-btn {
   display: none;
 }
